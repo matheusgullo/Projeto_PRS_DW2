@@ -1,0 +1,23 @@
+links de documentações
+
+https://spring.io/
+
+https://docs.spring.io/spring-framework/docs/current/reference/html/core.html
+
+https://martinfowler.com/articles/injection.html
+
+https://spring.io/projects/spring-data
+
+https://docs.jboss.org/hibernate/orm/5.4/userguide/html_single/Hibernate_User_Guide.html
+
+https://spring.io/guides/gs/rest-service/
+
+https://www.utf8-chartable.de/unicode-utf8-table.pl
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status
+
+https://hibernate.org/validator/documentation/
+
+https://jakarta.ee/specifications/bean-validation/2.0/bean-validation_2.0.html
+
+https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
