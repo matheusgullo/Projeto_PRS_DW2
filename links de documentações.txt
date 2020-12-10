@@ -21,3 +21,5 @@ https://hibernate.org/validator/documentation/
 https://jakarta.ee/specifications/bean-validation/2.0/bean-validation_2.0.html
 
 https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Methods
+
+teste
