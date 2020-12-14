@@ -46,7 +46,7 @@ input[type=submit]{
 .nav-item{
 	margin:5px;
 	padding:10px;
-	font-size: 15px;
+	font-size: 15px;	
 }
 
 
@@ -104,4 +104,16 @@ input[type=submit]{
 
 body{
 	background-color:#ADD8E6 !important;
+}
+
+
+
+.img-icones{
+	width: 10%	
+
+}
+
+
+.corpo{
+	padding-top:80px;
 }

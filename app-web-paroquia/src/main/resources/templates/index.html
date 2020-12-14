@@ -14,41 +14,50 @@
 	
 	<body>
 		 <!-- Início da barra de navegação -->
-		 <nav class="navbar navbar-expand-sm bg-info  navbar-dark fixed-top ">
-			 <div class="container-fluid">
-				<a href="index.html" class="navbar-brand logotipo">
-					<img src="img/logo paroquia.png" alt="Logotipo Paróquia">
-				</a>
-				<!--Recolher barra de navegação em telas pequenas-->
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="collapsibleNavbar">
-					<ul class="navbar-nav">
-						<li class="nav-item">
-						  <a class="nav-link page-scroll" href="#"><span class="txt-container">Início</span></a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link page-scroll" href="#sobre">Sobre nós</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link page-scroll" href="#horarios">Horários de Missa</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link page-scroll" href="#oracao">Pedido de oração</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link page-scroll" href="#links">Links úteis</a>
-						</li>
-						<li class="nav-item">
-						  <a class="nav-link page-scroll" href="#contato">Contato</a>
-						</li>
-					  </ul>
-				  </div>
-			</div>
-		 </nav>
-	
+		 <header>
+			 <nav class="navbar navbar-expand-sm bg-info  navbar-dark fixed-top ">
+				 <div class="container-fluid">
+					<a href="index.html" class="navbar-brand logotipo">
+						<img src="img/logo paroquia.png" alt="Logotipo Paróquia">
+					</a>
+					<!--Recolher barra de navegação em telas pequenas-->
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="collapsibleNavbar">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+							  <a class="nav-link page-scroll" href="#"><span class="txt-container">Início</span></a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link page-scroll" href="#sobre">Sobre nós</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link page-scroll" href="#horarios">Horários de Missa</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link page-scroll" href="#oracao">Pedido de oração</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link page-scroll" href="https://padrepauloricardo.org/programas/homilia-diaria" target="_blank">Homilia diária</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link page-scroll" href="https://www.a12.com/biblia" target="_blank">Bíblia on-line</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link page-scroll" href="#links">Links úteis</a>
+							</li>
+							<li class="nav-item">
+							  <a class="nav-link page-scroll" href="#contato">Contato</a>
+							</li>
+						  </ul>
+					  </div>
+				</div>
+			 </nav>
+		<header>
 		<!-- Fim da barra de navegação -->
+		
+		<section class="corpo">
 		<div id="fundo-externo">
 			<div id="fundo">
 				<img src="img/AngelaMerici-27Enero.jpg" alt="Santa Angela de Merici" class="img-fluid img-fundo">
@@ -57,98 +66,115 @@
 		
 		<br/>
 		
-		<div class="container-form bg-secondary text-white" >
-			<a name="sobre">
-				<h2 style="text-align:center">Sobre nós</h2>
-				<img src="img/7.jpg" alt="Santa Angela de Merici" class="img-fluid rounded-circle img-sobre mx-auto d-block">
-				<p class="sobre">Informações sobre a paróquia</p>
-			</a>
-		</div>
-		
-		<br/>
-		
-		<div class="container-form bg-info text-white" >
-			<a name="horarios">
-				<h2 style="text-align:center">Horários de Missa</h2>
-			</a>
-				<p>Domingo: 8h, 10h, 11h15, 12h30, 17h, 18h30 e 20h</p>
-				<p>Segunda a Sexta: 8h, 12h e 17h30</p>
-				<p>Sábado: 8h, 12h e 16h todas presenciais</p>
-		</div>
-		
-		<br/>
+			<div class="container-form bg-secondary text-white" >
+				<a name="sobre">
+					<h2 style="text-align:center">Sobre nós</h2>
+					<img src="img/7.jpg" alt="Santa Angela de Merici" class="img-fluid rounded-circle img-sobre mx-auto d-block">
+					<p class="sobre">Informações sobre a paróquia</p>
+				</a>
+			</div>
 			
-		<div class="container-form bg-secondary text-white" >
-			<a name="oracao">
-				<h2 style="text-align:center">Pedido de oração</h2>
-			</a>			
-					<form action="processa" method="post">		
-						
-							<label for="cnome">
-								Nome:
-							</label>
-							<input type="text" name="nome" id="cnome" required/>
-							
-							<label for="cemail">
-									Email:
-							</label>
-							<input type="email" name="email" id="cemail"  required/>							
-							
-							<label for="ctelefone">
-								Telefone:
-							</label>
-							<input type="tel" name="telefone" id="ctelefone" />
-							
-							<label for="ctexto">
-								Pedido de oração:
-							</label>
-							<input type="text" name="texto" id="ctexto" />
-						
-							<input type="submit" name="botao" value="Enviar" class="botao" />			
-							
-					</form>			
-		</div>
-		
-		<br/>	
-		
-		<div class="container-form bg-info text-white ">
-			<a name="links">
-				<h2 style="text-align:center">Links úteis</h2>
-			</a>
-		
-			<a href="https://liturgia.cancaonova.com/pb/" target="_blank" >
-				<img src="img/Liturgia_diaria1.jpg" alt="liturgia" class="img-fluid img-links-d img-thumbnail mx-auto d-block" >
-			</a>
-		
-			<a href="http://www.catolicoorante.com.br/oracoes.html" target="_blank" >
-				<img src="img/oracao dia.jpg" alt="orações" class="img-fluid img-links-e img-thumbnail mx-auto d-block" >
-			</a>		
-	
-			<a href="https://santo.cancaonova.com/" target="_blank" >
-				<img src="img/santo-do-dia.png" alt="santo do dia" class="img-fluid img-links-d img-thumbnail mx-auto d-block" >
-			</a>
+			<br/>
 			
-			<a href="http://www.vatican.va/archive/cathechism_po/index_new/prima-pagina-cic_po.html" target="_blank" >
-				<img src="img/catecismo_da_igreja_caolica_10.jpg" alt="catecismo" class="img-fluid img-links-e img-thumbnail mx-auto d-block" >
-			</a>			
+			<div class="container-form bg-info text-white" >
+				<a name="horarios">
+					<h2 style="text-align:center">Horários de Missa</h2>
+				</a>
+					<p>Domingo: 8h, 10h, 11h15, 12h30, 17h, 18h30 e 20h</p>
+					<p>Segunda a Sexta: 8h, 12h e 17h30</p>
+					<p>Sábado: 8h, 12h e 16h todas presenciais</p>
+			</div>
 			
-		</div>
+			<br/>
+				
+			<div class="container-form bg-secondary text-white" >
+				<a name="oracao">
+					<h2 style="text-align:center">Pedido de oração</h2>
+				</a>			
+						<form action="processa" method="post">		
+							
+								<label for="cnome">
+									Nome:
+								</label>
+								<input type="text" name="nome" id="cnome" required/>
+								
+								<label for="cemail">
+										Email:
+								</label>
+								<input type="email" name="email" id="cemail"  required/>							
+								
+								<label for="ctelefone">
+									Telefone:
+								</label>
+								<input type="tel" name="telefone" id="ctelefone" />
+								
+								<label for="ctexto">
+									Pedido de oração:
+								</label>
+								<input type="text" name="texto" id="ctexto" />
+							
+								<input type="submit" name="botao" value="Enviar" class="botao" />			
+								
+						</form>			
+			</div>
+			
+			<br/>	
+			
+			<div class="container-form bg-info text-white ">
+				<a name="links">
+					<h2 style="text-align:center">Links úteis</h2>
+				</a>
+			
+				<a href="https://liturgia.cancaonova.com/pb/" target="_blank" >
+					<img src="img/Liturgia_diaria1.jpg" alt="liturgia" class="img-fluid img-links-d img-thumbnail mx-auto d-block" >
+				</a>
+			
+				<a href="http://www.catolicoorante.com.br/oracoes.html" target="_blank" >
+					<img src="img/oracao dia.jpg" alt="orações" class="img-fluid img-links-e img-thumbnail mx-auto d-block" >
+				</a>		
 		
-		
-		
-		
-		<br/>
-		<footer class="bg-secondary text-white">
+				<a href="https://santo.cancaonova.com/" target="_blank" >
+					<img src="img/santo-do-dia.png" alt="santo do dia" class="img-fluid img-links-d img-thumbnail mx-auto d-block" >
+				</a>
+				
+				<a href="http://www.vatican.va/archive/cathechism_po/index_new/prima-pagina-cic_po.html" target="_blank" >
+					<img src="img/catecismo_da_igreja_caolica_10.jpg" alt="catecismo" class="img-fluid img-links-e img-thumbnail mx-auto d-block" >
+				</a>			
+				
+			</div>
+			
+			<br/>
+			
+			<div class="localizacao container-form bg-secondary text-white">
+				<h2 style="text-align:center">Localização</h2>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3705.0558445076135!2d-48.18600518546156!3d-21.778099585597275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b8f1661c76e545%3A0x21d0f3f1ec58eaf8!2sIgreja%20Santa%20Angela!5e0!3m2!1spt-BR!2sbr!4v1607956589290!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			
+			<br/>
+		<div class="container-form bg-info text-white">
 			<a name="contato">
 				<h2 style="text-align:center" >Contato</h2>
-			 </a>
-			 <div style="text-align:center">
-				 <p>Rua Manoel Rodrigues Jacob, S/N, Santa Angelina</p>
-				 <p>Araraquara/SP - CEP 14802-195</p>
-				 <p>(16) 98121-5731</p>
-				 <p>paroq.santangela@gmail.com</p>
-			 </div>
-		</footer>
+			 </a>			
+				 
+			<div style="text-align:center">
+				<p>Rua Manoel Rodrigues Jacob, S/N, Santa Angelina</p>
+				<p>Araraquara/SP - CEP 14802-195</p>
+				<p>(16) 98121-5731</p>
+				<p>paroq.santangela@gmail.com</p>
+								 
+				<a href="https://www.facebook.com/paroquiasantaangela" target="_blank" >
+					<img src="img/facebook.png" alt="facebook" class="img-thumbnail img-icones" >
+				</a>
+				<a href="https://www.youtube.com/channel/UCGQxsrPz6WhJg5eF6bbFBBw" target="_blank" >
+					<img src="img/youtube.png" alt="youtube" class="img-thumbnail img-icones" >
+				</a>				
+			</div>		
+		</div>
+		
+		</section>	
+		
+		
+		
 		
 		
 		
