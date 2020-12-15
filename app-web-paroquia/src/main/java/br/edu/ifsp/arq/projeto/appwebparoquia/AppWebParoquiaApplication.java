@@ -9,5 +9,4 @@ public class AppWebParoquiaApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(AppWebParoquiaApplication.class, args);
 	}
-
 }
