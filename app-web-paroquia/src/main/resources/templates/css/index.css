@@ -117,3 +117,21 @@ body{
 .corpo{
 	padding-top:80px;
 }
+
+
+form fieldset label {
+	display:inline;	
+	width:50px;
+	height:22px;
+	line-height:22px;
+}
+
+form fieldset label input {
+	display:inline;
+	float:left;
+	width:auto;
+	height:22px;
+	line-height:22px;
+	margin:0 3px 0 0;
+	
+}

@@ -54,17 +54,17 @@
 					  </div>
 				</div>
 			 </nav>
-		<header>
+		</header>
 		<!-- Fim da barra de navegação -->
 		
 		<section class="corpo">
-		<div id="fundo-externo">
-			<div id="fundo">
-				<img src="img/AngelaMerici-27Enero.jpg" alt="Santa Angela de Merici" class="img-fluid img-fundo">
+			<div id="fundo-externo">
+				<div id="fundo">
+					<img src="img/AngelaMerici-27Enero.jpg" alt="Santa Angela de Merici" class="img-fluid img-fundo">
+				</div>
 			</div>
-		</div>
 		
-		<br/>
+			<br/>
 		
 			<div class="container-form bg-secondary text-white" >
 				<a name="sobre">
@@ -80,9 +80,9 @@
 				<a name="horarios">
 					<h2 style="text-align:center">Horários de Missa</h2>
 				</a>
-					<p>Domingo: 8h, 10h, 11h15, 12h30, 17h, 18h30 e 20h</p>
-					<p>Segunda a Sexta: 8h, 12h e 17h30</p>
-					<p>Sábado: 8h, 12h e 16h todas presenciais</p>
+				<p>Domingo: 8h, 10h, 11h15, 12h30, 17h, 18h30 e 20h</p>
+				<p>Segunda a Sexta: 8h, 12h e 17h30</p>
+				<p>Sábado: 8h, 12h e 16h todas presenciais</p>
 			</div>
 			
 			<br/>
@@ -91,31 +91,29 @@
 				<a name="oracao">
 					<h2 style="text-align:center">Pedido de oração</h2>
 				</a>			
-						<form action="processa" method="post">		
-							
-								<label for="cnome">
-									Nome:
-								</label>
-								<input type="text" name="nome" id="cnome" required/>
-								
-								<label for="cemail">
-										Email:
-								</label>
-								<input type="email" name="email" id="cemail"  required/>							
-								
-								<label for="ctelefone">
-									Telefone:
-								</label>
-								<input type="tel" name="telefone" id="ctelefone" />
-								
-								<label for="ctexto">
-									Pedido de oração:
-								</label>
-								<input type="text" name="texto" id="ctexto" />
-							
-								<input type="submit" name="botao" value="Enviar" class="botao" />			
-								
-						</form>			
+				<form action="processa" method="post">						
+					<label for="cnome">
+						Nome:
+					</label>
+					<input type="text" name="nome" id="cnome" required/>
+					
+					<label for="cemail">
+							Email:
+					</label>
+					<input type="email" name="email" id="cemail"  required/>							
+					
+					<label for="ctelefone">
+						Telefone:
+					</label>
+					<input type="tel" name="telefone" id="ctelefone" />
+					
+					<label for="ctexto">
+						Pedido de oração:
+					</label>
+					<input type="text" name="texto" id="ctexto" />
+				
+					<input type="submit" name="botao" value="Enviar" class="botao" />							
+				</form>			
 			</div>
 			
 			<br/>	
@@ -151,37 +149,73 @@
 			</div>
 			
 			<br/>
-		<div class="container-form bg-info text-white">
-			<a name="contato">
-				<h2 style="text-align:center" >Contato</h2>
-			 </a>			
+			
+			<div class="container-form bg-info text-white">
+				<a name="contato">
+					<h2 style="text-align:center" >Contato</h2>
+				 </a>			
 				 
-			<div style="text-align:center">
-				<p>Rua Manoel Rodrigues Jacob, S/N, Santa Angelina</p>
-				<p>Araraquara/SP - CEP 14802-195</p>
-				<p>(16) 98121-5731</p>
-				<p>paroq.santangela@gmail.com</p>
-								 
-				<a href="https://www.facebook.com/paroquiasantaangela" target="_blank" >
-					<img src="img/facebook.png" alt="facebook" class="img-thumbnail img-icones" >
-				</a>
-				<a href="https://www.youtube.com/channel/UCGQxsrPz6WhJg5eF6bbFBBw" target="_blank" >
-					<img src="img/youtube.png" alt="youtube" class="img-thumbnail img-icones" >
-				</a>				
-			</div>		
-		</div>
-		
-		</section>	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+				<div style="text-align:center">
+					<p>Rua Manoel Rodrigues Jacob, S/N, Santa Angelina</p>
+					<p>Araraquara/SP - CEP 14802-195</p>
+					<p>(16) 98121-5731</p>
+					<p>paroq.santangela@gmail.com</p>
+									 
+					<a href="https://www.facebook.com/paroquiasantaangela" target="_blank" >
+						<img src="img/facebook.png" alt="facebook" class="img-thumbnail img-icones" >
+					</a>
+					<a href="https://www.youtube.com/channel/UCGQxsrPz6WhJg5eF6bbFBBw" target="_blank" >
+						<img src="img/youtube.png" alt="youtube" class="img-thumbnail img-icones" >
+					</a>				
+				</div>		
+			</div>	
+			
+			<br/>
+			
+			<div class="container-form bg-secondary text-white" >
+				<a name="oracao">
+					<h2 style="text-align:center">Avaliação do site</h2>
+				</a>			
+				<form action="processa" method="post">						
+					<label for="cnome">
+						Nome:
+					</label>
+					<input type="text" name="nome" id="cnome" required/>
+					<fieldset>
+						<legend>Nota</legend>					
+						
+						<label for="0"><input type="radio" id="0" name="nota" value="0">0</label> 
+						
+						<label for="1"><input type="radio" id="1" name="nota" value="1">1</label>
+						
+						<label for="2"><input type="radio" id="2" name="nota" value="2">2</label> 
+						
+						<label for="3"><input type="radio" id="3" name="nota" value="3">3</label>
+						
+						<label for="4"><input type="radio" id="4" name="nota" value="4">4</label>
+						
+						<label for="5"><input type="radio" id="5" name="nota" value="5">5</label>
+						
+						<label for="6"><input type="radio" id="6" name="nota" value="6">6</label>
+						
+						<label for="7"><input type="radio" id="7" name="nota" value="7">7</label>
+						
+						<label for="8"><input type="radio" id="8" name="nota" value="8">8</label>
+						
+						<label for="9"><input type="radio" id="9" name="nota" value="9">9</label>
+						
+						<label for="10"><input type="radio" id="10" name="nota" value="10">10</label>
+					</fieldset>
+					
+					<label for="csugestao">
+						Sugestões:
+					</label>
+					<input type="text" name="sugestao" id="csugestao" />
+				
+					<input type="submit" name="botao" value="Enviar" class="botao" />							
+				</form>			
+			</div>
+		</section>			
 		
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -194,20 +228,7 @@
 
 		<!-- Latest compiled JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-		<script>
-		$(window).scroll(function() {
-			if ($(document).scrollTop() > 50) {
-					$('.navbar').addClass('sticky');
-					$('.logotipo img').addClass('sticky img');
-			} else {
-				$('.navbar').removeClass('sticky');
-				$('.logotipo img').removeClass('sticky img');
-			}
-		});
-		</script>
 		
-		
-		
-		
+		<script src="js/script.js"></script>		
 	</body>
 </html>
