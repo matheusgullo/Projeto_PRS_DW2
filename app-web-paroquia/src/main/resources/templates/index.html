@@ -95,7 +95,7 @@
 				<a name="oracao">
 					<h2 style="text-align:center">Pedido de oração</h2>
 				</a>			
-				<form action="processa" method="post">						
+				<form action="php/pedido.php" method="post">						
 					<label for="cnome">
 						Nome:
 					</label>
@@ -109,12 +109,12 @@
 					<label for="ctelefone">
 						Telefone:
 					</label>
-					<input type="tel" name="telefone" id="ctelefone" />
+					<input type="tel" name="telefone" id="ctelefone" required/>
 					
 					<label for="ctexto">
 						Pedido de oração:
 					</label>
-					<input type="text" name="texto" id="ctexto" />
+					<input type="text" name="texto" id="ctexto" required/>
 				
 					<input type="submit" name="botao" value="Enviar" class="botao" />							
 				</form>			
@@ -180,12 +180,12 @@
 				<a name="avaliacao">
 					<h2 style="text-align:center">Avaliação do site</h2>
 				</a>			
-				<form action="processa" method="post">						
+				<form action="php/avaliacao.php" method="post">						
 					<label for="cnome">
 						Nome:
 					</label>
 					<input type="text" name="nome" id="cnome" required/>
-					<fieldset>
+					<fieldset >
 						<legend>Nota</legend>					
 						
 						<label for="0"><input type="radio" id="0" name="nota" value="0">0</label> 
@@ -214,7 +214,7 @@
 					<label for="csugestao">
 						Sugestões:
 					</label>
-					<input type="text" name="sugestao" id="csugestao" />
+					<input type="text" name="sugestao" id="csugestao" required/>
 				
 					<input type="submit" name="botao" value="Enviar" class="botao" />							
 				</form>			
